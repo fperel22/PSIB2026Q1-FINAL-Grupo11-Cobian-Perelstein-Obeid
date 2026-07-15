@@ -218,25 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-# Datos crudos y procesados
-data/raw/
-data/processed/
-data/selected/
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Sistema operativo
-.DS_Store
-Thumbs.db
-
-
 # Datos pesados - se regeneran localmente
 data/raw/
 data/processed/preprocessed/
