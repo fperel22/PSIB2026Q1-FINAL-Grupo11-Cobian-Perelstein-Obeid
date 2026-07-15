@@ -221,6 +221,7 @@ __marimo__/
 # Datos crudos y procesados
 data/raw/
 data/processed/
+data/selected/
 
 # Python
 __pycache__/
@@ -234,8 +235,3 @@ venv/
 # Sistema operativo
 .DS_Store
 Thumbs.db
-
-
-*.png
-
-data/

@@ -1,5 +1,5 @@
 """
-00_split_dataset.py
+04_split_dataset.py
 
 Genera el split reproducible del dataset BUSI completo, compartido por todo
 el equipo. Es CRITICO que este archivo se corra una sola vez, se suba al
@@ -16,7 +16,7 @@ Logica del split:
        sobre ellas se generan mascaras automaticas en 09_unet_inference.py.
 
 Uso:
-    python 00_split_dataset.py \
+    python 04_split_dataset.py \
         --images-dir data/processed/bilateral \
         --output data/splits/manifest.csv
 """
