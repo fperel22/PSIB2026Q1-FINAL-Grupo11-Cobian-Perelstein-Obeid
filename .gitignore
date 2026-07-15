@@ -235,3 +235,18 @@ venv/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+
+# Datos pesados - se regeneran localmente
+data/raw/
+data/processed/preprocessed/
+data/selected/
+
+# Checkpoints de modelos
+outputs/unet/*.pt
+outputs/unet_320/
+outputs/cnn/*.pt
+
+# Excepciones explícitas
+!data/processed/auto_masks/
+!data/processed/auto_masks/**

@@ -1,13 +1,16 @@
 """
-04_split_dataset.py
+00_split_dataset.py
 
 Genera el split reproducible del dataset BUSI completo, compartido por todo
-el equipo. Es CRITICO que este archivo se corra una sola vez, se suba al
+el equipo. 
+
+--> Es CRITICO que este archivo se corra una sola vez, se suba al
 repo (data/splits/manifest.csv) y que nadie lo vuelva a generar con otra
 semilla, para que el split de la U-Net y el de los clasificadores sea
 consistente entre los tres.
 
 Logica del split:
+
   1. 50% de las imagenes (estratificado por clase) -> grupo "unet"
      - Se subdivide a su vez en train/val para entrenar la U-Net.
   2. 50% restante -> grupo "classifiers"
@@ -16,7 +19,7 @@ Logica del split:
        sobre ellas se generan mascaras automaticas en 09_unet_inference.py.
 
 Uso:
-    python 04_split_dataset.py \
+    python 00_split_dataset.py \
         --images-dir data/processed/bilateral \
         --output data/splits/manifest.csv
 """

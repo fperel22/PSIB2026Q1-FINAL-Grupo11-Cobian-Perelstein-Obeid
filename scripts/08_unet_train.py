@@ -15,11 +15,7 @@ Uso local (con GPU):
 
 Smoke test (subset chico, pocas epocas, para validar el pipeline y estimar
 tiempos antes de lanzar el entrenamiento completo):
-    python 08_unet_train.py --smoke-test --epochs 3 ... (mismos paths)
-
-En Colab: montar Drive con los datos, clonar el repo para traer este
-script, y correr con !python 08_unet_train.py --manifest ... (rutas dentro
-de /content/drive/...).
+    python 09_unet_train.py --smoke-test --epochs 3 ... (mismos paths)
 """
 import argparse
 import csv
