@@ -3,4 +3,7 @@ pandas
 matplotlib
 opencv-python
 scikit-image
+scipy
 PySide6
+PyWavelets
+scikit-learn
