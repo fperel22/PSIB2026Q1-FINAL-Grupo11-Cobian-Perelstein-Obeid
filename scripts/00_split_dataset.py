@@ -19,8 +19,8 @@ Logica del split:
        sobre ellas se generan mascaras automaticas en 09_unet_inference.py.
 
 Uso:
-    python 00_split_dataset.py \
-        --images-dir data/processed/bilateral \
+    python scripts/00_split_dataset.py \
+        --data-dir data/processed/preprocessed/robust_bilateral \
         --output data/splits/manifest.csv
 """
 import argparse
