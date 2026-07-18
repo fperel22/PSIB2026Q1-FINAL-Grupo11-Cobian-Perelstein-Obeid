@@ -1,0 +1,20 @@
+{
+  "mask_source": "auto",
+  "manifest": "data\\splits\\manifest.csv",
+  "eligible_csv": "outputs\\tables_aligned\\features_auto.csv",
+  "preprocessed_dir": "data\\processed\\preprocessed\\robust_bilateral",
+  "auto_masks_dir": "data\\processed\\auto_masks",
+  "output_dir": "outputs\\efficientnet",
+  "run_name": "auto_d04_p020",
+  "batch_size": 4,
+  "head_epochs": 5,
+  "fine_epochs": 15,
+  "head_lr": 0.001,
+  "fine_lr": 0.0001,
+  "dropout": 0.4,
+  "padding": 0.2,
+  "patience": 5,
+  "seed": 42,
+  "smoke_test": false,
+  "evaluate_test": false
+}

@@ -1,0 +1,12 @@
+{
+  "best_params": {
+    "C": 100,
+    "gamma": 0.001
+  },
+  "cv_best_balanced_accuracy": 0.8504761904761906,
+  "n_train": 216,
+  "n_val": 48,
+  "n_test": 47,
+  "n_pcs": 15,
+  "seed": 42
+}

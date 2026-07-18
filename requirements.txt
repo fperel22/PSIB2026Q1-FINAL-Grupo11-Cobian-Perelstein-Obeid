@@ -7,3 +7,9 @@ scipy
 PySide6
 PyWavelets
 scikit-learn
+albumentations
+segmentation-models-pytorch
+joblib
+torch
+torchvision
+Pillow

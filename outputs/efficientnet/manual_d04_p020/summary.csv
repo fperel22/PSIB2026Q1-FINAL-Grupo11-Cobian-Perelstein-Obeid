@@ -1,0 +1,2 @@
+model,mask_source,run_name,split,accuracy,balanced_accuracy,sensitivity,specificity,precision,f1,roc_auc,tn,fp,fn,tp,dropout,padding,head_lr,fine_lr,seed
+EfficientNet-B0,manual,manual_d04_p020,val,0.9375,0.953125,1.0,0.90625,0.8421052631578947,0.9142857142857143,0.990234375,29,3,0,16,0.4,0.2,0.001,0.0001,42

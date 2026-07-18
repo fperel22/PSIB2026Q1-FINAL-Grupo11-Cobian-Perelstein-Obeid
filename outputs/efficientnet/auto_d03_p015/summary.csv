@@ -1,0 +1,2 @@
+model,mask_source,run_name,split,accuracy,balanced_accuracy,sensitivity,specificity,precision,f1,roc_auc,tn,fp,fn,tp,dropout,padding,head_lr,fine_lr,seed
+EfficientNet-B0,auto,auto_d03_p015,val,0.8333333333333334,0.8125,0.75,0.875,0.75,0.75,0.896484375,28,4,4,12,0.3,0.15,0.001,0.0001,42

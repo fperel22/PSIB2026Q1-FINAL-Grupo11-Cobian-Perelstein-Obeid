@@ -227,7 +227,10 @@ data/selected/
 outputs/unet/*.pt
 outputs/unet_320/
 outputs/cnn/*.pt
+outputs/efficientnet/**/*.pt
+outputs/models/**/*.joblib
 
 # Excepciones explícitas
 !data/processed/auto_masks/
 !data/processed/auto_masks/**
+outputs/models/pca_aligned/
